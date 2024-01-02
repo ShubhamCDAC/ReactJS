@@ -112,4 +112,8 @@ const App = () => {
   );
 };
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 869c2fb (test)

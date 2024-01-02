@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   display: flex;
   margin: 0 auto;
@@ -46,4 +47,54 @@ label{
     background-color: #fff;
     padding: 0 5px;
     font-size: 14px;
+=======
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 40px;
+  align-items: end;
+}
+
+.top_button {
+  display: flex;
+  gap: 32px;
+
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_control input{
+    height: 40px;
+    padding: 0 8px;
+}
+.form_control textarea{
+    padding: 8px;
+}
+
+label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+>>>>>>> 869c2fb (test)
 }
